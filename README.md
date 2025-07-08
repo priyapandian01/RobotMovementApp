@@ -1,4 +1,4 @@
-# 🤖 Robot Movement App (Tkinter Grid UI)
+# 🤖 Robot Movement App 
 
 This is a Python project that simulates robot movement on a 10x10 grid using a simple GUI (Tkinter).  
 You can add multiple robots and issue directional commands like `E3`, `N2` to move them.
