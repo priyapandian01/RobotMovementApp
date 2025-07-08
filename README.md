@@ -17,7 +17,7 @@ You can add multiple robots and issue directional commands like `E3`, `N2` to mo
 
 ---
 
-## 🚀 How to Run GUI App
+## 🚀 How to Run 
 
 ```bash
 python robot_grid_ui.py
