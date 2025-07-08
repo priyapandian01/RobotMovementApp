@@ -17,6 +17,19 @@ You can add multiple robots and issue directional commands like `E3`, `N2` to mo
 
 ---
 
+| Task Requirement                                                   | Implementation ✅                                                                  |
+| ------------------------------------------------------------------ | --------------------------------------------------------------------------------- |
+| **a) Create multiple robots**                                      | `add_robot("R1")`, `add_robot("R2")`                                              |
+| **b) Associate each robot with a unique number**                   | Unique robot IDs like `"R1"`, `"R2"`                                              |
+| **c) Move a selected robot based on input like N4, E3, etc.**      | `issue_command("R1", "E3")`                                                       |
+| **d) Stop movement if a robot is already at the destination cell** | Movement stops before occupied cell — collision prevention logic implemented      |
+| **e) Display the current location of the selected robot**          | `get_robot_current_position("R1")` returns current (x, y) position                |
+| **f) Terrain is a grid and robots start at cell (0, 0)**           | Each robot starts from `(0, 0)` and moves on grid coordinates                     |
+| **g) Terrain need not be visually shown**                          | Terminal output shows positions (GUI included optionally)                         |
+| **h) Include unit test cases**                                     | `test_robot.py` includes test cases for movement, collision, and input validation |
+
+
+
 ## 🚀 How to Run 
 
 ```bash
